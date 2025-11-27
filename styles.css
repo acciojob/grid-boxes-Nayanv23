@@ -1,9 +1,9 @@
 /*  your css code here. If applicable */
 #grid{
 	display:grid;
-	grid-template-columns:repeat(4,1fr);
-	grid-auto-rows:80px;
-    gap:5px;
+	grid-template-columns:242.5px;
+	grid-template-rows:124px;
+    gap:10px;
     background:#fff;
 }
 
@@ -14,7 +14,7 @@
 	font-size:25px;
 }
 .item1{
-	grid-column:1 / 5;
+	grid-column:span 4/auto
 }
 .item2{
 	grid-row:2/6
