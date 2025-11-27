@@ -41,5 +41,11 @@
 	grid-column:4/5
 }
 .item10{
-	grid-column:2/5
+	grid-column:span 4
+}
+.item8{
+grid-column:3/4
+}
+.item9{
+grid-column:4/5
 }
