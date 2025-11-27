@@ -21,9 +21,11 @@
 }
 .item3{
 	grid-column:2/3
+grid-row:2
 }
 .item4{
 	grid-column:3/5
+grid-row:2/4
 }
 .item5{
 	grid-column:2/4
